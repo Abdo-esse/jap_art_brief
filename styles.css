@@ -300,6 +300,20 @@ footer {
     font-size: 1em;
     line-height: 1.6;
 }
+.icon{
+    width: 210px;
+    display: flex;
+    margin-top: 7px;
+}
+.icon a img{
+    width: 100%;
+   
+}
+.icon a{
+    padding-left: 15px;
+
+}
+
 
 .footer-bottom {
     text-align: center;
