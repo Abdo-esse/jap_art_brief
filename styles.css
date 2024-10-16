@@ -265,6 +265,70 @@ section#collection {
 
 /* end Garlly section */
 
+/* debut de section about  */
+
+.hero_about{
+    background: url(/images/hero\ about.jpg);
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    display: flex;
+  flex-direction: column;    
+  justify-content: center;   
+  align-items: center;       
+  height: 80vh;  
+  padding: 0 31%; 
+
+}
+.hero-content{
+    font-size: 45px;
+    margin-bottom: 26px;
+}
+.hero_about p{
+    font-size: 22px;
+    text-align: center;
+}
+.hero_about h1{
+    font-size: 45px;
+}
+.intersested-art h4{
+    text-align: center;
+    font-size: 45px;
+}
+.intersested {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+   }
+.card {
+    width: 400PX;
+    height: 390px; 
+    background-color: white;
+    margin: 0 18px;
+    
+}
+.card .img {
+    width: 100%;
+    height: 150px; 
+    display: flex;
+    justify-content: center;
+    
+}
+.card .img .ima_intersested{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ima_intersested img{
+    height: 50%;
+}
+
+/* end de section about  */
+
 
 
 
