@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: cursive;
 }
 
 body {
-    font-family: cursive;
+    
     color: #195362;
     background-color: #f4f4f4;
     background-color: #E0F7FA;
@@ -14,6 +15,7 @@ body {
 nav {
     background-color: #0288D1; /* sea blue */
     padding: 15px 20px;
+   
 }
 
 .navbar {
@@ -245,7 +247,7 @@ nav {
     width: 22%;
     height: 390px;
     
-    border: solid 5px black;
+    border: solid 5px #0288D1;
     margin: 0 18px 20px;
     border-radius: 15px;
 }
@@ -289,6 +291,71 @@ nav {
 
 
 /* end de section about  */
+/* star de section contact  */
+
+.hediane_contact{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hediane_contact h2{
+    font-size: 45px;
+}
+.centenu_contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 31px;
+}
+.formulire{
+    display:flex;
+    flex-direction:column ;
+   
+    margin-left: 10px;
+}
+.formulire input{
+    width: 386px;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    border: none;
+}
+.formulire label{
+    cursor: pointer;
+}
+.formulire button{
+    width: 85px;
+    height: 35px;
+    color: white;
+    background: #0288D1;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+}
+.formulire button:hover{
+    background-color: #81D4FA;
+    color: #000;
+}
+.img_contact {
+    width: 450px;
+    height: 450px;
+
+}
+.img_contact img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* end de section contact*/
+
 
 
 
@@ -329,10 +396,11 @@ footer {
     width: 210px;
     display: flex;
     margin-top: 7px;
+    
 }
 .icon a img{
     width: 100%;
-   
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .icon a{
     padding-left: 15px;
