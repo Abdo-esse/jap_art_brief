@@ -77,7 +77,7 @@ nav {
 
 /* star Garlly section */
 .titel{
-    background: url(/images/japan\ galery.jpg);
+    background: url(./images/japan\ galery.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh; 
@@ -153,7 +153,7 @@ nav {
 /* debut de section about  */
 
 .hero_about{
-    background: url(/images/hero\ about.jpg);
+    background: url(./images/hero\ about.jpg);
     background-size: cover;
     height: 80vh;
     color: white;

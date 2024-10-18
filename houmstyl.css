@@ -72,7 +72,7 @@ nav {
 
 /* Hero section*/
 .hero {
-    background-image: url('images/landing1.jpg');
+    background-image: url('./images/landing1.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
